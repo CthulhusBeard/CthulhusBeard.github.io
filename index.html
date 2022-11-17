@@ -19,7 +19,7 @@
                 </div>
 
                 <div id="top-nav">
-                    Create your own monsters! <s>Kill your players!</s> Balance your encounters!
+                    Create your monsters! Balance your encounters! <s>Kill your players!</s> 
                 </div>
 
                 <div id="side-nav">
@@ -106,6 +106,9 @@
                             </div>
                             <div>
                                 <button @click="importMonster(sampleMonsters[editor.importMonster])">{{f5.misc.title_import}}</button>
+                            </div>
+                            <div>
+                                <button @click="importMonsterFromClipboard()">{{f5.misc.title_import_from_clipboard}}</button>
                             </div>
                             <div>
                                 <br/>
